@@ -1,0 +1,84 @@
+*{
+    padding:0px;
+    border:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+html,body{
+    background: linear-gradient(to right,#085726, #0fa548);
+    font-size: 20px;;
+   
+}
+
+.tip__calculator{
+   width:350px;
+   margin-top:10% ;
+   margin-left: 40%;
+   border-radius: 10px;
+   background-color: whitesmoke;
+    
+}
+
+.tip__calculator-title{
+    color:white;
+    background-color: black;
+    padding:10px 15px;
+    text-align: center;
+    font-weight: 300;
+    text-transform: uppercase;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.buttom{
+    padding:10px 15px;
+}
+
+p{
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+
+input{
+    font-size: 18px;
+    padding:7px 10px;
+    box-shadow: 2px 2px 0 rgb(202, 202, 202);
+    border-top: 2px solid rgb(236, 236, 236);
+    border-left: 2px solid rgb(236, 236, 236);
+   
+}
+
+.tip-amount, .numOfPeople, .service-quality{
+    margin-bottom: 20px;
+}
+
+.service-quality-options{
+    font-size: 27px;
+    padding:15px 7px;
+
+}
+
+.calcButton{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.button-calc{
+    color: white;
+    background-color: #12c456;
+    padding: 12px 30px;
+    font-size: 20px;
+    transition: background-color 0.5s;
+}
+
+.button-calc:hover{
+    background-color: #0b9440;
+
+}
+
+.result{
+    margin-top: 20px;
+    text-align: center;
+}
